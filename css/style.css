@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-size: cover;
+    width: 100vh;
+}
+
+.notas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-e-turma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-id{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-id input{
+    width: 69%;
+    margin-top: 10px;
+}
+
+
+.linha-verde {
+    background-color: green;
+    color: white;
+}
+
+.linha-vermelha {
+    background-color: red;
+    color: white;
+}
+
+.linha-amarela {
+    background-color: yellow;
+    color: black;
+}
+

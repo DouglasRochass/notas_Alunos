@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Médias da escola</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="notas">Notas</h1>
+        <div class="nome-e-turma">
+            <input style="margin-right: 10px;" type="text" id="nomeAluno" placeholder="Nome:">
+            <input type="text" placeholder="Turma:">
+        </div>
+        <div class="input-id">
+            <input type="number" id="nota1" placeholder="Nota 1">
+            <input type="number" id="nota2" placeholder="Nota 2">
+            <input type="number" id="nota3" placeholder="Nota 3">
+            <input type="number" id="nota4" placeholder="Nota 4">
+            <button type="button" id="botaoEnviar">Enviar</button>
+        </div>
+
+        <table id="notasTable">
+            <thead>
+                <tr>
+                    <th>Bimestre</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Nota 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas serão adicionadas aqui dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
